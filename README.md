@@ -49,7 +49,6 @@ Estos scripts son desarrollado en php y puede ser ejecutado en diferentes plataf
 >
 >  <hijos.txt> archivo de texto con hijos que no pudieron vincularse a un registro madre
 >
->
 >  ***Sintaxis migra.php:***
 >
 >  *php migra.php <bibun.txt> <marcXML.xml> <config.ini>*
@@ -62,7 +61,7 @@ Estos scripts son desarrollado en php y puede ser ejecutado en diferentes plataf
 >
 >  <config.ini> archivo de configuración para parametrizar la migración.
 >
-## ***archivos de configuración***
+## ***Archivos de configuración***
 >  
 >  *FACET.ini*
 >  Contiene reglas generales como localización de archivos y códigos, y reglas de control, está en desarrollo incorporar reglas de migración
