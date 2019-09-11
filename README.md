@@ -62,7 +62,8 @@ Estos scripts son desarrollado en php y puede ser ejecutado en diferentes plataf
 >
 >  <config.ini> archivo de configuración para parametrizar la migración.
 >
->  ***archivos de configuración***
+>  #***archivos de configuración***
+>  
 >  *FACET.ini*
 >  Contiene reglas generales como localización de archivos y códigos, y reglas de control, está en desarrollo incorporar reglas de migración
 > 
