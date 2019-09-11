@@ -62,7 +62,7 @@ Estos scripts son desarrollado en php y puede ser ejecutado en diferentes plataf
 >
 >  <config.ini> archivo de configuración para parametrizar la migración.
 >
->  #***archivos de configuración***
+## ***archivos de configuración***
 >  
 >  *FACET.ini*
 >  Contiene reglas generales como localización de archivos y códigos, y reglas de control, está en desarrollo incorporar reglas de migración
@@ -71,5 +71,9 @@ Estos scripts son desarrollado en php y puede ser ejecutado en diferentes plataf
 >  El archivo replace contiene cadenas de texto a ser reemplazadas en el proceso de migración, permite corregir errores sobre la base y códigos incompletos o incorrectos, importa el orden, por lo que se debe tener en cuenta que el reemplazo de una cadena estará expuesto al analisis del siguiente reemplazo.
 >
 >
+## Prueba el script
+php borrahijos.php base/bibun.txt base/bibun_madres.txt base/bibun_hijos.txt > logs/log_borrarhijos.txt 
+php migra.php base/bibun_madres.txt *facet.xml* config/FACET.ini > logs/log_migra.txt
+
 ## ***PARA TENER EN CUENTA***
 Cada migración es diferente, estos scripts permiten hacer una limpieza y migración de registros, pero la habilidad del encargado de la migración es lo que hace la diferencia
