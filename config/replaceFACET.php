@@ -13,7 +13,7 @@ $repArr = array(
 	'├│'=>'ó',
 
 	'!v065!<FUNCIONES ARMONICAS>'=>'!v065!FUNCIONES ARMONICAS',
-	'!v007!PUBLICACIONES' => '!v007!PUBLICACION'
+	'!v007!PUBLICACIONES' => '!v007!PUBLICACION',
 	/*reemplazar el amperzand al final*/
 	'&'=>'&amp;',
 
