@@ -33,7 +33,7 @@ Estos scripts son desarrollado en php y puede ser ejecutado en diferentes plataf
 >  *i2id <DB_origen> from=1 > <archivo de salida>*
 >
 > Además es conveniente que los campos de vinculación de registros madre-hijo se modifiquen a un campo compuesto. Es decir, el campo 079 debe estar compuesto por: 
->  *^z<acceso>^a<inventario>^p<precio>^d<disponibilidad>^v<volumen ejemplar>^m<modo de adquisición>^l<biblioteca>^e<estantería>*
+>  *^z[nro acceso]^a[nro inventario]^p[precio material]^d[disponibilidad del material]^v[volumen ejemplar]^m[modo de adquisición]^l[biblioteca o localizacion]^e[estantería o temática]*
 >
 >  El script borrahijos.php permite hacer la vinculación de madres a hijos y de hijos a madres, dando como resultado 2 archivos, los registros madres con los hijos vinculados y los registros hijos que no pudieron ser vinculados.
 >
