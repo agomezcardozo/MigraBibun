@@ -21,11 +21,12 @@ Estos scripts son desarrollado en php y puede ser ejecutado en diferentes plataf
 ### **Funcionamiento**
 
 > El script trabaja con archivos de texto de la forma
-> 
-> *!ID mmmmmm*
-> *!vXXX!...contents of tag XXX.............*
-> *!vYYY!...contents of tag YYY.............*
->
+
+```
+ !ID mmmmmm
+ !vXXX!...contents of tag XXX.............
+ !vYYY!...contents of tag YYY.............
+```
 > Los que se pueden obtener con el aplicativo *i2id* de *cisis*
 >
 >  ***Sintaxis i2id***
